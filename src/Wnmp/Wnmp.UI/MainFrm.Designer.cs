@@ -93,7 +93,7 @@
             this.WnmpMenuStrip.Location = new System.Drawing.Point(0, 0);
             this.WnmpMenuStrip.Name = "WnmpMenuStrip";
             this.WnmpMenuStrip.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.WnmpMenuStrip.Size = new System.Drawing.Size(755, 24);
+            this.WnmpMenuStrip.Size = new System.Drawing.Size(755, 25);
             this.WnmpMenuStrip.TabIndex = 0;
             // 
             // fileToolStripMenuItem
@@ -104,33 +104,33 @@
             this.toolStripSeparator1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(39, 21);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // wnmpOptionsToolStripMenuItem
             // 
             this.wnmpOptionsToolStripMenuItem.Name = "wnmpOptionsToolStripMenuItem";
-            this.wnmpOptionsToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.wnmpOptionsToolStripMenuItem.Text = "Wnmp Options";
+            this.wnmpOptionsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.wnmpOptionsToolStripMenuItem.Text = "选项";
             this.wnmpOptionsToolStripMenuItem.Click += new System.EventHandler(this.WnmpOptionsToolStripMenuItem_Click);
             // 
             // checkForUpdatesToolStripMenuItem
             // 
             this.checkForUpdatesToolStripMenuItem.Name = "checkForUpdatesToolStripMenuItem";
-            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.checkForUpdatesToolStripMenuItem.Text = "Check For Updates";
+            this.checkForUpdatesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkForUpdatesToolStripMenuItem.Text = "检查更新";
             this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.CheckForUpdatesToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(170, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Text = "退出";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
@@ -139,21 +139,21 @@
             this.hostToIPToolStripMenuItem,
             this.getHTTPHeadersToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(52, 21);
             this.toolsToolStripMenuItem.Text = "&Tools";
             // 
             // hostToIPToolStripMenuItem
             // 
             this.hostToIPToolStripMenuItem.Name = "hostToIPToolStripMenuItem";
-            this.hostToIPToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.hostToIPToolStripMenuItem.Text = "Host To IP";
+            this.hostToIPToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.hostToIPToolStripMenuItem.Text = "主机到IP";
             this.hostToIPToolStripMenuItem.Click += new System.EventHandler(this.HostToIPToolStripMenuItem_Click);
             // 
             // getHTTPHeadersToolStripMenuItem
             // 
             this.getHTTPHeadersToolStripMenuItem.Name = "getHTTPHeadersToolStripMenuItem";
-            this.getHTTPHeadersToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
-            this.getHTTPHeadersToolStripMenuItem.Text = "Get HTTP Headers";
+            this.getHTTPHeadersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.getHTTPHeadersToolStripMenuItem.Text = "获取HTTP头";
             this.getHTTPHeadersToolStripMenuItem.Click += new System.EventHandler(this.GetHTTPHeadersToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
@@ -166,69 +166,69 @@
             this.donateToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(47, 21);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // supportToolStripMenuItem
             // 
             this.supportToolStripMenuItem.Name = "supportToolStripMenuItem";
-            this.supportToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.supportToolStripMenuItem.Text = "Community Support";
+            this.supportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.supportToolStripMenuItem.Text = "社区支持";
             this.supportToolStripMenuItem.Click += new System.EventHandler(this.SupportToolStripMenuItem_Click);
             // 
             // reportBugToolStripMenuItem
             // 
             this.reportBugToolStripMenuItem.Name = "reportBugToolStripMenuItem";
-            this.reportBugToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.reportBugToolStripMenuItem.Text = "Report Bug";
+            this.reportBugToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.reportBugToolStripMenuItem.Text = "报告错误";
             this.reportBugToolStripMenuItem.Click += new System.EventHandler(this.ReportBugToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // websiteToolStripMenuItem
             // 
             this.websiteToolStripMenuItem.Name = "websiteToolStripMenuItem";
-            this.websiteToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.websiteToolStripMenuItem.Text = "Website";
+            this.websiteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.websiteToolStripMenuItem.Text = "官网";
             this.websiteToolStripMenuItem.Click += new System.EventHandler(this.WebsiteToolStripMenuItem_Click);
             // 
             // donateToolStripMenuItem
             // 
             this.donateToolStripMenuItem.Name = "donateToolStripMenuItem";
-            this.donateToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.donateToolStripMenuItem.Text = "Donate";
+            this.donateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.donateToolStripMenuItem.Text = "捐献";
             this.donateToolStripMenuItem.Click += new System.EventHandler(this.DonateToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Text = "关于";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
             // localhostToolStripMenuItem
             // 
             this.localhostToolStripMenuItem.Name = "localhostToolStripMenuItem";
-            this.localhostToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
-            this.localhostToolStripMenuItem.Text = "localhost";
+            this.localhostToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
+            this.localhostToolStripMenuItem.Text = "本地服务器";
             this.localhostToolStripMenuItem.Click += new System.EventHandler(this.LocalhostToolStripMenuItem_Click);
             // 
             // setupMariaDBToolStripMenuItem
             // 
             this.setupMariaDBToolStripMenuItem.Name = "setupMariaDBToolStripMenuItem";
-            this.setupMariaDBToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
+            this.setupMariaDBToolStripMenuItem.Size = new System.Drawing.Size(108, 21);
             this.setupMariaDBToolStripMenuItem.Text = "Setup MariaDB";
             this.setupMariaDBToolStripMenuItem.Click += new System.EventHandler(this.setupMariaDBToolStripMenuItem_Click);
             // 
             // wnmpDirButton
             // 
-            this.wnmpDirButton.Location = new System.Drawing.Point(667, 187);
+            this.wnmpDirButton.Location = new System.Drawing.Point(667, 212);
             this.wnmpDirButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.wnmpDirButton.Name = "wnmpDirButton";
-            this.wnmpDirButton.Size = new System.Drawing.Size(74, 46);
+            this.wnmpDirButton.Size = new System.Drawing.Size(74, 52);
             this.wnmpDirButton.TabIndex = 65;
             this.wnmpDirButton.Text = "Wnmp Directory";
             this.wnmpDirButton.UseVisualStyleBackColor = true;
@@ -239,11 +239,11 @@
             this.logRichTextBox.BackColor = System.Drawing.Color.White;
             this.logRichTextBox.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.logRichTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.logRichTextBox.Location = new System.Drawing.Point(0, 264);
+            this.logRichTextBox.Location = new System.Drawing.Point(0, 300);
             this.logRichTextBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.logRichTextBox.Name = "logRichTextBox";
             this.logRichTextBox.ReadOnly = true;
-            this.logRichTextBox.Size = new System.Drawing.Size(755, 153);
+            this.logRichTextBox.Size = new System.Drawing.Size(755, 173);
             this.logRichTextBox.TabIndex = 61;
             this.logRichTextBox.Text = "";
             // 
@@ -273,21 +273,21 @@
             this.applicationsGroupBox.Controls.Add(this.phpStopButton);
             this.applicationsGroupBox.Controls.Add(this.nginxStartButton);
             this.applicationsGroupBox.Controls.Add(this.nginxStopButton);
-            this.applicationsGroupBox.Location = new System.Drawing.Point(14, 31);
+            this.applicationsGroupBox.Location = new System.Drawing.Point(14, 35);
             this.applicationsGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.applicationsGroupBox.Name = "applicationsGroupBox";
             this.applicationsGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.applicationsGroupBox.Size = new System.Drawing.Size(634, 202);
+            this.applicationsGroupBox.Size = new System.Drawing.Size(634, 229);
             this.applicationsGroupBox.TabIndex = 60;
             this.applicationsGroupBox.TabStop = false;
             this.applicationsGroupBox.Text = "Applications";
             // 
             // phpRestartButton
             // 
-            this.phpRestartButton.Location = new System.Drawing.Point(322, 152);
+            this.phpRestartButton.Location = new System.Drawing.Point(322, 172);
             this.phpRestartButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpRestartButton.Name = "phpRestartButton";
-            this.phpRestartButton.Size = new System.Drawing.Size(58, 32);
+            this.phpRestartButton.Size = new System.Drawing.Size(58, 36);
             this.phpRestartButton.TabIndex = 78;
             this.phpRestartButton.Text = "Restart";
             this.phpRestartButton.UseVisualStyleBackColor = true;
@@ -295,10 +295,10 @@
             // 
             // mariadbRestartButton
             // 
-            this.mariadbRestartButton.Location = new System.Drawing.Point(322, 102);
+            this.mariadbRestartButton.Location = new System.Drawing.Point(322, 116);
             this.mariadbRestartButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mariadbRestartButton.Name = "mariadbRestartButton";
-            this.mariadbRestartButton.Size = new System.Drawing.Size(58, 32);
+            this.mariadbRestartButton.Size = new System.Drawing.Size(58, 36);
             this.mariadbRestartButton.TabIndex = 77;
             this.mariadbRestartButton.Text = "Restart";
             this.mariadbRestartButton.UseVisualStyleBackColor = true;
@@ -306,10 +306,10 @@
             // 
             // nginxRestartButton
             // 
-            this.nginxRestartButton.Location = new System.Drawing.Point(322, 52);
+            this.nginxRestartButton.Location = new System.Drawing.Point(322, 59);
             this.nginxRestartButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nginxRestartButton.Name = "nginxRestartButton";
-            this.nginxRestartButton.Size = new System.Drawing.Size(58, 32);
+            this.nginxRestartButton.Size = new System.Drawing.Size(58, 36);
             this.nginxRestartButton.TabIndex = 76;
             this.nginxRestartButton.Text = "Restart";
             this.nginxRestartButton.UseVisualStyleBackColor = true;
@@ -317,10 +317,10 @@
             // 
             // phpLogButton
             // 
-            this.phpLogButton.Location = new System.Drawing.Point(491, 152);
+            this.phpLogButton.Location = new System.Drawing.Point(491, 172);
             this.phpLogButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpLogButton.Name = "phpLogButton";
-            this.phpLogButton.Size = new System.Drawing.Size(58, 32);
+            this.phpLogButton.Size = new System.Drawing.Size(58, 36);
             this.phpLogButton.TabIndex = 75;
             this.phpLogButton.Text = "Logs";
             this.phpLogButton.UseVisualStyleBackColor = true;
@@ -328,10 +328,10 @@
             // 
             // mariadbLogButton
             // 
-            this.mariadbLogButton.Location = new System.Drawing.Point(491, 102);
+            this.mariadbLogButton.Location = new System.Drawing.Point(491, 116);
             this.mariadbLogButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mariadbLogButton.Name = "mariadbLogButton";
-            this.mariadbLogButton.Size = new System.Drawing.Size(58, 32);
+            this.mariadbLogButton.Size = new System.Drawing.Size(58, 36);
             this.mariadbLogButton.TabIndex = 74;
             this.mariadbLogButton.Text = "Logs";
             this.mariadbLogButton.UseVisualStyleBackColor = true;
@@ -339,10 +339,10 @@
             // 
             // nginxLogButton
             // 
-            this.nginxLogButton.Location = new System.Drawing.Point(491, 53);
+            this.nginxLogButton.Location = new System.Drawing.Point(491, 60);
             this.nginxLogButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nginxLogButton.Name = "nginxLogButton";
-            this.nginxLogButton.Size = new System.Drawing.Size(58, 32);
+            this.nginxLogButton.Size = new System.Drawing.Size(58, 36);
             this.nginxLogButton.TabIndex = 73;
             this.nginxLogButton.Text = "Logs";
             this.nginxLogButton.UseVisualStyleBackColor = true;
@@ -350,10 +350,10 @@
             // 
             // phpConfigButton
             // 
-            this.phpConfigButton.Location = new System.Drawing.Point(387, 152);
+            this.phpConfigButton.Location = new System.Drawing.Point(387, 172);
             this.phpConfigButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpConfigButton.Name = "phpConfigButton";
-            this.phpConfigButton.Size = new System.Drawing.Size(97, 32);
+            this.phpConfigButton.Size = new System.Drawing.Size(97, 36);
             this.phpConfigButton.TabIndex = 72;
             this.phpConfigButton.Text = "Configuration";
             this.phpConfigButton.UseVisualStyleBackColor = true;
@@ -361,10 +361,10 @@
             // 
             // mariadbConfigButton
             // 
-            this.mariadbConfigButton.Location = new System.Drawing.Point(387, 102);
+            this.mariadbConfigButton.Location = new System.Drawing.Point(387, 116);
             this.mariadbConfigButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mariadbConfigButton.Name = "mariadbConfigButton";
-            this.mariadbConfigButton.Size = new System.Drawing.Size(97, 32);
+            this.mariadbConfigButton.Size = new System.Drawing.Size(97, 36);
             this.mariadbConfigButton.TabIndex = 71;
             this.mariadbConfigButton.Text = "Configuration";
             this.mariadbConfigButton.UseVisualStyleBackColor = true;
@@ -372,10 +372,10 @@
             // 
             // nginxConfigButton
             // 
-            this.nginxConfigButton.Location = new System.Drawing.Point(387, 52);
+            this.nginxConfigButton.Location = new System.Drawing.Point(387, 59);
             this.nginxConfigButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nginxConfigButton.Name = "nginxConfigButton";
-            this.nginxConfigButton.Size = new System.Drawing.Size(97, 32);
+            this.nginxConfigButton.Size = new System.Drawing.Size(97, 36);
             this.nginxConfigButton.TabIndex = 70;
             this.nginxConfigButton.Text = "Configuration";
             this.nginxConfigButton.UseVisualStyleBackColor = true;
@@ -385,7 +385,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(92, 159);
+            this.label8.Location = new System.Drawing.Point(92, 180);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 16);
@@ -396,7 +396,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(92, 110);
+            this.label7.Location = new System.Drawing.Point(92, 125);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 16);
@@ -408,7 +408,7 @@
             this.phprunning.AutoSize = true;
             this.phprunning.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.phprunning.ForeColor = System.Drawing.Color.DarkRed;
-            this.phprunning.Location = new System.Drawing.Point(26, 156);
+            this.phprunning.Location = new System.Drawing.Point(26, 177);
             this.phprunning.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.phprunning.Name = "phprunning";
             this.phprunning.Size = new System.Drawing.Size(21, 20);
@@ -420,7 +420,7 @@
             this.mariadbrunning.AutoSize = true;
             this.mariadbrunning.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.mariadbrunning.ForeColor = System.Drawing.Color.DarkRed;
-            this.mariadbrunning.Location = new System.Drawing.Point(26, 105);
+            this.mariadbrunning.Location = new System.Drawing.Point(26, 119);
             this.mariadbrunning.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.mariadbrunning.Name = "mariadbrunning";
             this.mariadbrunning.Size = new System.Drawing.Size(21, 20);
@@ -432,7 +432,7 @@
             this.optionsLabel.AutoSize = true;
             this.optionsLabel.BackColor = System.Drawing.Color.Transparent;
             this.optionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.optionsLabel.Location = new System.Drawing.Point(191, 27);
+            this.optionsLabel.Location = new System.Drawing.Point(191, 31);
             this.optionsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.optionsLabel.Name = "optionsLabel";
             this.optionsLabel.Size = new System.Drawing.Size(50, 13);
@@ -443,7 +443,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(92, 59);
+            this.label4.Location = new System.Drawing.Point(92, 67);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 16);
@@ -455,7 +455,7 @@
             this.applicationLabel.AutoSize = true;
             this.applicationLabel.BackColor = System.Drawing.Color.Transparent;
             this.applicationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.applicationLabel.Location = new System.Drawing.Point(92, 27);
+            this.applicationLabel.Location = new System.Drawing.Point(92, 31);
             this.applicationLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.applicationLabel.Name = "applicationLabel";
             this.applicationLabel.Size = new System.Drawing.Size(70, 13);
@@ -467,7 +467,7 @@
             this.nginxrunning.AutoSize = true;
             this.nginxrunning.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.nginxrunning.ForeColor = System.Drawing.Color.DarkRed;
-            this.nginxrunning.Location = new System.Drawing.Point(26, 54);
+            this.nginxrunning.Location = new System.Drawing.Point(26, 61);
             this.nginxrunning.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nginxrunning.Name = "nginxrunning";
             this.nginxrunning.Size = new System.Drawing.Size(21, 20);
@@ -479,7 +479,7 @@
             this.runningLabel.AutoSize = true;
             this.runningLabel.BackColor = System.Drawing.Color.Transparent;
             this.runningLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.runningLabel.Location = new System.Drawing.Point(7, 27);
+            this.runningLabel.Location = new System.Drawing.Point(7, 31);
             this.runningLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.runningLabel.Name = "runningLabel";
             this.runningLabel.Size = new System.Drawing.Size(54, 13);
@@ -488,10 +488,10 @@
             // 
             // mariadbStopButton
             // 
-            this.mariadbStopButton.Location = new System.Drawing.Point(257, 103);
+            this.mariadbStopButton.Location = new System.Drawing.Point(257, 117);
             this.mariadbStopButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mariadbStopButton.Name = "mariadbStopButton";
-            this.mariadbStopButton.Size = new System.Drawing.Size(58, 32);
+            this.mariadbStopButton.Size = new System.Drawing.Size(58, 36);
             this.mariadbStopButton.TabIndex = 57;
             this.mariadbStopButton.Text = "Stop";
             this.mariadbStopButton.UseVisualStyleBackColor = true;
@@ -499,10 +499,10 @@
             // 
             // mariadbStartButton
             // 
-            this.mariadbStartButton.Location = new System.Drawing.Point(191, 103);
+            this.mariadbStartButton.Location = new System.Drawing.Point(191, 117);
             this.mariadbStartButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mariadbStartButton.Name = "mariadbStartButton";
-            this.mariadbStartButton.Size = new System.Drawing.Size(58, 32);
+            this.mariadbStartButton.Size = new System.Drawing.Size(58, 36);
             this.mariadbStartButton.TabIndex = 56;
             this.mariadbStartButton.Text = "Start";
             this.mariadbStartButton.UseVisualStyleBackColor = true;
@@ -510,10 +510,10 @@
             // 
             // phpStartButton
             // 
-            this.phpStartButton.Location = new System.Drawing.Point(191, 152);
+            this.phpStartButton.Location = new System.Drawing.Point(191, 172);
             this.phpStartButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpStartButton.Name = "phpStartButton";
-            this.phpStartButton.Size = new System.Drawing.Size(58, 32);
+            this.phpStartButton.Size = new System.Drawing.Size(58, 36);
             this.phpStartButton.TabIndex = 55;
             this.phpStartButton.Text = "Start";
             this.phpStartButton.UseVisualStyleBackColor = true;
@@ -521,10 +521,10 @@
             // 
             // phpStopButton
             // 
-            this.phpStopButton.Location = new System.Drawing.Point(257, 152);
+            this.phpStopButton.Location = new System.Drawing.Point(257, 172);
             this.phpStopButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpStopButton.Name = "phpStopButton";
-            this.phpStopButton.Size = new System.Drawing.Size(58, 32);
+            this.phpStopButton.Size = new System.Drawing.Size(58, 36);
             this.phpStopButton.TabIndex = 54;
             this.phpStopButton.Text = "Stop";
             this.phpStopButton.UseVisualStyleBackColor = true;
@@ -532,10 +532,10 @@
             // 
             // nginxStartButton
             // 
-            this.nginxStartButton.Location = new System.Drawing.Point(191, 52);
+            this.nginxStartButton.Location = new System.Drawing.Point(191, 59);
             this.nginxStartButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nginxStartButton.Name = "nginxStartButton";
-            this.nginxStartButton.Size = new System.Drawing.Size(58, 32);
+            this.nginxStartButton.Size = new System.Drawing.Size(58, 36);
             this.nginxStartButton.TabIndex = 53;
             this.nginxStartButton.Text = "Start";
             this.nginxStartButton.UseVisualStyleBackColor = true;
@@ -543,10 +543,10 @@
             // 
             // nginxStopButton
             // 
-            this.nginxStopButton.Location = new System.Drawing.Point(257, 52);
+            this.nginxStopButton.Location = new System.Drawing.Point(257, 59);
             this.nginxStopButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nginxStopButton.Name = "nginxStopButton";
-            this.nginxStopButton.Size = new System.Drawing.Size(58, 32);
+            this.nginxStopButton.Size = new System.Drawing.Size(58, 36);
             this.nginxStopButton.TabIndex = 52;
             this.nginxStopButton.Text = "Stop";
             this.nginxStopButton.UseVisualStyleBackColor = true;
@@ -554,10 +554,10 @@
             // 
             // startAllButton
             // 
-            this.startAllButton.Location = new System.Drawing.Point(667, 31);
+            this.startAllButton.Location = new System.Drawing.Point(667, 35);
             this.startAllButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.startAllButton.Name = "startAllButton";
-            this.startAllButton.Size = new System.Drawing.Size(74, 42);
+            this.startAllButton.Size = new System.Drawing.Size(74, 48);
             this.startAllButton.TabIndex = 62;
             this.startAllButton.Text = "Start all";
             this.startAllButton.UseVisualStyleBackColor = true;
@@ -565,10 +565,10 @@
             // 
             // stopAllButton
             // 
-            this.stopAllButton.Location = new System.Drawing.Point(667, 78);
+            this.stopAllButton.Location = new System.Drawing.Point(667, 88);
             this.stopAllButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.stopAllButton.Name = "stopAllButton";
-            this.stopAllButton.Size = new System.Drawing.Size(74, 42);
+            this.stopAllButton.Size = new System.Drawing.Size(74, 48);
             this.stopAllButton.TabIndex = 63;
             this.stopAllButton.Text = "Stop all";
             this.stopAllButton.UseVisualStyleBackColor = true;
@@ -576,10 +576,10 @@
             // 
             // openMariaDBShellButton
             // 
-            this.openMariaDBShellButton.Location = new System.Drawing.Point(667, 126);
+            this.openMariaDBShellButton.Location = new System.Drawing.Point(667, 143);
             this.openMariaDBShellButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.openMariaDBShellButton.Name = "openMariaDBShellButton";
-            this.openMariaDBShellButton.Size = new System.Drawing.Size(74, 57);
+            this.openMariaDBShellButton.Size = new System.Drawing.Size(74, 65);
             this.openMariaDBShellButton.TabIndex = 64;
             this.openMariaDBShellButton.Text = "Open MariaDB Shell";
             this.openMariaDBShellButton.UseVisualStyleBackColor = true;
@@ -593,9 +593,9 @@
             // 
             // MainFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(755, 417);
+            this.ClientSize = new System.Drawing.Size(755, 473);
             this.Controls.Add(this.wnmpDirButton);
             this.Controls.Add(this.logRichTextBox);
             this.Controls.Add(this.applicationsGroupBox);

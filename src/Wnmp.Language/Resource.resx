@@ -118,270 +118,270 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ABOUT" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="ALLOW_REMOTE_ROOT_ACCESS" xml:space="preserve">
-    <value>Allow remote root access</value>
+    <value>允许Root远程访问</value>
   </data>
   <data name="ALREADY_RUNNING" xml:space="preserve">
-    <value>Already running</value>
+    <value>正在运行</value>
   </data>
   <data name="APPLICATION" xml:space="preserve">
-    <value>Application</value>
+    <value>应用程序</value>
   </data>
   <data name="APPLICATIONS" xml:space="preserve">
-    <value>Applications</value>
+    <value>应用程序</value>
   </data>
   <data name="APPLICATION_SETTINGS" xml:space="preserve">
-    <value>Application Settings</value>
+    <value>应用程序设置</value>
   </data>
   <data name="AUTOMATICALLY_CHECK_FOR_UPDATES" xml:space="preserve">
-    <value>Automatically check for updates</value>
+    <value>自动检测更新</value>
   </data>
   <data name="BACKED_UP" xml:space="preserve">
-    <value>Backed up</value>
+    <value>备份</value>
   </data>
   <data name="CANCEL" xml:space="preserve">
-    <value>Cancel</value>
+    <value>取消</value>
   </data>
   <data name="CHECK_FOR_UPDATES" xml:space="preserve">
-    <value>Check For Updates</value>
+    <value>检查更新</value>
   </data>
   <data name="CLOSE" xml:space="preserve">
-    <value>Close</value>
+    <value>关闭</value>
   </data>
   <data name="COMMUNITY_SUPPORT" xml:space="preserve">
-    <value>Community Support</value>
+    <value>社区支持</value>
   </data>
   <data name="CONFIGURATION" xml:space="preserve">
-    <value>Configuration</value>
+    <value>配置</value>
   </data>
   <data name="COPY" xml:space="preserve">
-    <value>&amp;Copy</value>
+    <value>&amp;复制</value>
   </data>
   <data name="COPYRIGHT_TEXT" xml:space="preserve">
     <value>Copyright (c) 2012 - {CURRENTYEAR} by Kurt Cancemi</value>
   </data>
   <data name="COULDNT_READ_UPDATE_INFORMATION" xml:space="preserve">
-    <value>Couldn't read update information</value>
+    <value>无法读取更新信息</value>
   </data>
   <data name="DONATE" xml:space="preserve">
-    <value>Donate</value>
+    <value>捐献</value>
   </data>
   <data name="DOWNLOADING_UPDATE" xml:space="preserve">
-    <value>Downloading Update...</value>
+    <value>正在下载更新...</value>
   </data>
   <data name="DOWNLOAD_IN_PROGRESS_PLEASE_WAIT" xml:space="preserve">
-    <value>Download in progress, please wait...</value>
+    <value>正在下载，请稍候...</value>
   </data>
   <data name="EDITOR" xml:space="preserve">
-    <value>Editor</value>
+    <value>编辑器</value>
   </data>
   <data name="EXIT" xml:space="preserve">
-    <value>Exit</value>
+    <value>退出</value>
   </data>
   <data name="FILE_MENU" xml:space="preserve">
-    <value>&amp;File</value>
+    <value>&amp;文件</value>
   </data>
   <data name="GENERAL" xml:space="preserve">
-    <value>General</value>
+    <value>常规</value>
   </data>
   <data name="GENERATED_SSL_KEYPAIR" xml:space="preserve">
-    <value>Generated SSL Keypair</value>
+    <value>生成的SSL密钥对</value>
   </data>
   <data name="GET_HEADERS" xml:space="preserve">
-    <value>Get Headers</value>
+    <value>获取标题</value>
   </data>
   <data name="GET_HTTP_HEADERS" xml:space="preserve">
-    <value>Get HTTP Headers</value>
+    <value>获取HTTP头</value>
   </data>
   <data name="HEADER" xml:space="preserve">
-    <value>Header</value>
+    <value>标题</value>
   </data>
   <data name="HELP_MENU" xml:space="preserve">
-    <value>&amp;Help</value>
+    <value>&amp;帮助</value>
   </data>
   <data name="HOST_SC" xml:space="preserve">
-    <value>Host:</value>
+    <value>主机：</value>
   </data>
   <data name="HOST_TO_IP" xml:space="preserve">
-    <value>Host To IP</value>
+    <value>主机到IP：</value>
   </data>
   <data name="INITIALIZING_CONTROL_PANEL" xml:space="preserve">
-    <value>Initializing Control Panel</value>
+    <value>初始化控制面板</value>
   </data>
   <data name="INVALID_PASSWORD_FORMAT" xml:space="preserve">
-    <value>Invalid Password Format</value>
+    <value>无效的密码格式</value>
   </data>
   <data name="IP_S" xml:space="preserve">
     <value>IP(s)</value>
   </data>
   <data name="LATEST_VERSION_SC" xml:space="preserve">
-    <value>Latest version:</value>
+    <value>最新版本：</value>
   </data>
   <data name="LICENSE" xml:space="preserve">
-    <value>License</value>
+    <value>许可证</value>
   </data>
   <data name="LOGS" xml:space="preserve">
-    <value>Logs</value>
+    <value>日志</value>
   </data>
   <data name="MARIADB_DATA_DIR_EXISTS" xml:space="preserve">
-    <value>The MariaDB data directory '{dataDirectory}' already exists, to continue with the setup it will be deleted. Is that OK? Please backup any data that you don't want lost in that directory before proceeding.</value>
+    <value>MariaDB数据目录 '{dataDirectory}' 已存在，如果继续安装，将删除该目录。在此之前，您不希望丢失存在此目录中的任何数据，请备份。确定要继续吗？</value>
   </data>
   <data name="MARIADB_SETUP" xml:space="preserve">
-    <value>MariaDB Setup</value>
+    <value>MariaDB设置</value>
   </data>
   <data name="MARIADB_VERSION" xml:space="preserve">
-    <value>MariaDB Version:</value>
+    <value>MariaDB版本：</value>
   </data>
   <data name="MINIMIZE_TO_TRAY" xml:space="preserve">
-    <value>Minimize to tray</value>
+    <value>最小化到托盘</value>
   </data>
   <data name="MINIMIZE_TO_TRAY_INSTEAD_OF_CLOSING" xml:space="preserve">
-    <value>Minimize to tray instead of closing</value>
+    <value>最小化到托盘，而不是关闭</value>
   </data>
   <data name="MOVED" xml:space="preserve">
-    <value>Moved</value>
+    <value>移动</value>
   </data>
   <data name="NEW_VERSION_FOUND_EX" xml:space="preserve">
-    <value>New version found!</value>
+    <value>发现新版本！</value>
   </data>
   <data name="NGINX_VERSION" xml:space="preserve">
-    <value>Nginx Version:</value>
+    <value>Nginx版本：</value>
   </data>
   <data name="NO" xml:space="preserve">
     <value>No</value>
   </data>
   <data name="NOT_RUNNING" xml:space="preserve">
-    <value>Not running</value>
+    <value>未运行</value>
   </data>
   <data name="OPEN_MARIADB_SHELL" xml:space="preserve">
-    <value>Open MariaDB Shell</value>
+    <value>打开MariaDB Shell</value>
   </data>
   <data name="OPTIONS" xml:space="preserve">
-    <value>Options</value>
+    <value>选项</value>
   </data>
   <data name="PASSWORD_CREATE_INVALID" xml:space="preserve">
-    <value>Password may not be blank or contain spaces.</value>
+    <value>密码不能为空或包含空格。</value>
   </data>
   <data name="PHP_EXTENSIONS" xml:space="preserve">
-    <value>PHP Extensions</value>
+    <value>PHP扩展</value>
   </data>
   <data name="PHP_PORT" xml:space="preserve">
-    <value>PHP Port:</value>
+    <value>PHP 端口：</value>
   </data>
   <data name="PHP_PROCESSES" xml:space="preserve">
-    <value>PHP Processes:</value>
+    <value>PHP 进程：</value>
   </data>
   <data name="PHP_VERSION" xml:space="preserve">
-    <value>PHP Version:</value>
+    <value>PHP版本：</value>
   </data>
   <data name="REPORT_BUG" xml:space="preserve">
-    <value>Report Bug</value>
+    <value>报告错误</value>
   </data>
   <data name="RESTART" xml:space="preserve">
-    <value>Restart</value>
+    <value>重启</value>
   </data>
   <data name="RESTARTED" xml:space="preserve">
-    <value>Restarted</value>
+    <value>重启过去式</value>
   </data>
   <data name="ROOT_PASSWORD" xml:space="preserve">
-    <value>Root Password:</value>
+    <value>Root密码：</value>
   </data>
   <data name="RUNNING" xml:space="preserve">
-    <value>Running</value>
+    <value>运行状态</value>
   </data>
   <data name="SAVE" xml:space="preserve">
-    <value>Save</value>
+    <value>保存</value>
   </data>
   <data name="SELECT_A_TEXT_EDITOR" xml:space="preserve">
-    <value>Select a text editor</value>
+    <value>选择一个文本编辑器</value>
   </data>
   <data name="SETUP_MARIADB" xml:space="preserve">
-    <value>Setup MariaDB</value>
+    <value>设置MariaDB</value>
   </data>
   <data name="START" xml:space="preserve">
-    <value>Start</value>
+    <value>启动</value>
   </data>
   <data name="STARTED" xml:space="preserve">
-    <value>Started</value>
+    <value>运行</value>
   </data>
   <data name="STARTED_MARIADB_SHELL" xml:space="preserve">
-    <value>Started MariaDB shell</value>
+    <value>打开MariaDB shell</value>
   </data>
   <data name="START_ALL" xml:space="preserve">
-    <value>Start All</value>
+    <value>启动全部</value>
   </data>
   <data name="START_MARIADB_ON_LAUNCH" xml:space="preserve">
-    <value>Start MariaDB on launch</value>
+    <value>打开软件即启动MariaDB</value>
   </data>
   <data name="START_NGINX_ON_LAUNCH" xml:space="preserve">
-    <value>Start Nginx on launch</value>
+    <value>打开软件即启动Nginx</value>
   </data>
   <data name="START_PHP_ON_LAUNCH" xml:space="preserve">
-    <value>Start PHP on launch</value>
+    <value>打开软件即启动PHP</value>
   </data>
   <data name="START_WNMP_MINIMIZED" xml:space="preserve">
-    <value>Start Wnmp minimized</value>
+    <value>启动Wnmp最小化</value>
   </data>
   <data name="START_WNMP_WITH_WINDOWS" xml:space="preserve">
-    <value>Start Wnmp with Windows</value>
+    <value>开机自启</value>
   </data>
   <data name="STOP" xml:space="preserve">
-    <value>Stop</value>
+    <value>停止</value>
   </data>
   <data name="STOPPED" xml:space="preserve">
-    <value>Stopped</value>
+    <value>停止</value>
   </data>
   <data name="STOP_ALL" xml:space="preserve">
-    <value>Stop All</value>
+    <value>全部停止</value>
   </data>
   <data name="TOOLS_MENU" xml:space="preserve">
-    <value>&amp;Tools</value>
+    <value>&amp;工具</value>
   </data>
   <data name="UPDATE_CHECK_INTERVAL_IN_DAYS" xml:space="preserve">
-    <value>Update check interval (in days)</value>
+    <value>更新检查间隔(以天为单位)</value>
   </data>
   <data name="VALUE" xml:space="preserve">
-    <value>Value</value>
+    <value>值</value>
   </data>
   <data name="VERSION" xml:space="preserve">
-    <value>Version</value>
+    <value>版本</value>
   </data>
   <data name="VIEW_CHANGELOG" xml:space="preserve">
-    <value>View Changelog</value>
+    <value>查看更改日志</value>
   </data>
   <data name="VISIBLE" xml:space="preserve">
-    <value>Visible</value>
+    <value>显示</value>
   </data>
   <data name="WEBSITE" xml:space="preserve">
-    <value>Website</value>
+    <value>官网</value>
   </data>
   <data name="WNMP_CONTROL_PANEL" xml:space="preserve">
-    <value>Wnmp Control Panel</value>
+    <value>Wnmp控制面板</value>
   </data>
   <data name="WNMP_DESCRIPTION" xml:space="preserve">
-    <value>Wnmp is an easy Nginx, MariaDB, and PHP environment for Windows.</value>
+    <value>Wnmp是一个简单的Windows、Nginx、MariaDB和PHP环境。</value>
   </data>
   <data name="WNMP_DIRECTORY" xml:space="preserve">
-    <value>Wnmp Directory</value>
+    <value>Wnmp目录</value>
   </data>
   <data name="WNMP_OPTIONS" xml:space="preserve">
-    <value>Wnmp Options</value>
+    <value>Wnmp选项</value>
   </data>
   <data name="WNMP_VERSION" xml:space="preserve">
-    <value>Wnmp Version: {CURRENTVERSION}</value>
+    <value>Wnmp版本：{CURRENTVERSION}</value>
   </data>
   <data name="WOULD_YOU_LIKE_TO_DOWNLOAD_THIS_UPDATE_QM" xml:space="preserve">
-    <value>Would you like to download this update?</value>
+    <value>您确定要更新吗？</value>
   </data>
   <data name="YES" xml:space="preserve">
-    <value>Yes</value>
+    <value>是的</value>
   </data>
   <data name="YOUR_VERSION_SC" xml:space="preserve">
-    <value>Your version:</value>
+    <value>您的版本：</value>
   </data>
   <data name="YOUR_VERSION_VER_IS_UP_TO_DATE_DOT" xml:space="preserve">
-    <value>Your version {CURRENTVERSION} is up to date.</value>
+    <value>您的版本：{CURRENTVERSION}是最新的。</value>
   </data>
 </root>

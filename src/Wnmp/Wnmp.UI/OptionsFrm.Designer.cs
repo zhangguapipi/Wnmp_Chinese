@@ -89,12 +89,12 @@
             // 
             // Cancel
             // 
-            this.Cancel.Location = new System.Drawing.Point(321, 399);
+            this.Cancel.Location = new System.Drawing.Point(321, 452);
             this.Cancel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(88, 27);
+            this.Cancel.Size = new System.Drawing.Size(88, 31);
             this.Cancel.TabIndex = 20;
-            this.Cancel.Text = "Cancel";
+            this.Cancel.Text = "取消";
             this.Cancel.UseVisualStyleBackColor = true;
             this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
@@ -104,21 +104,21 @@
             this.optionsTabControl.Controls.Add(this.Nginx);
             this.optionsTabControl.Controls.Add(this.MariaDB);
             this.optionsTabControl.Controls.Add(this.PHP);
-            this.optionsTabControl.Location = new System.Drawing.Point(8, 14);
+            this.optionsTabControl.Location = new System.Drawing.Point(8, 16);
             this.optionsTabControl.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.optionsTabControl.Name = "optionsTabControl";
             this.optionsTabControl.SelectedIndex = 0;
-            this.optionsTabControl.Size = new System.Drawing.Size(405, 378);
+            this.optionsTabControl.Size = new System.Drawing.Size(405, 428);
             this.optionsTabControl.TabIndex = 19;
             // 
             // General
             // 
             this.General.Controls.Add(this.applicationSettingsGroupBox);
-            this.General.Location = new System.Drawing.Point(4, 24);
+            this.General.Location = new System.Drawing.Point(4, 26);
             this.General.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.General.Name = "General";
             this.General.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.General.Size = new System.Drawing.Size(397, 350);
+            this.General.Size = new System.Drawing.Size(397, 398);
             this.General.TabIndex = 0;
             this.General.Text = "General";
             this.General.UseVisualStyleBackColor = true;
@@ -146,11 +146,11 @@
             this.applicationSettingsGroupBox.Controls.Add(this.editorTB);
             this.applicationSettingsGroupBox.Controls.Add(this.MinimizeWnmpToTray);
             this.applicationSettingsGroupBox.Controls.Add(this.minimizeToTrayLabel);
-            this.applicationSettingsGroupBox.Location = new System.Drawing.Point(7, 7);
+            this.applicationSettingsGroupBox.Location = new System.Drawing.Point(7, 8);
             this.applicationSettingsGroupBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.applicationSettingsGroupBox.Name = "applicationSettingsGroupBox";
             this.applicationSettingsGroupBox.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.applicationSettingsGroupBox.Size = new System.Drawing.Size(382, 277);
+            this.applicationSettingsGroupBox.Size = new System.Drawing.Size(382, 314);
             this.applicationSettingsGroupBox.TabIndex = 16;
             this.applicationSettingsGroupBox.TabStop = false;
             this.applicationSettingsGroupBox.Text = "Application Settings";
@@ -158,7 +158,7 @@
             // StartMinimizedToTray
             // 
             this.StartMinimizedToTray.AutoSize = true;
-            this.StartMinimizedToTray.Location = new System.Drawing.Point(18, 195);
+            this.StartMinimizedToTray.Location = new System.Drawing.Point(18, 221);
             this.StartMinimizedToTray.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartMinimizedToTray.Name = "StartMinimizedToTray";
             this.StartMinimizedToTray.Size = new System.Drawing.Size(15, 14);
@@ -168,17 +168,17 @@
             // startWnmpMinimizedLabel
             // 
             this.startWnmpMinimizedLabel.AutoSize = true;
-            this.startWnmpMinimizedLabel.Location = new System.Drawing.Point(37, 196);
+            this.startWnmpMinimizedLabel.Location = new System.Drawing.Point(37, 222);
             this.startWnmpMinimizedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startWnmpMinimizedLabel.Name = "startWnmpMinimizedLabel";
-            this.startWnmpMinimizedLabel.Size = new System.Drawing.Size(129, 15);
+            this.startWnmpMinimizedLabel.Size = new System.Drawing.Size(140, 17);
             this.startWnmpMinimizedLabel.TabIndex = 23;
             this.startWnmpMinimizedLabel.Text = "Start Wnmp minimized";
             // 
             // MinimizeToTrayInsteadOfClosing
             // 
             this.MinimizeToTrayInsteadOfClosing.AutoSize = true;
-            this.MinimizeToTrayInsteadOfClosing.Location = new System.Drawing.Point(18, 172);
+            this.MinimizeToTrayInsteadOfClosing.Location = new System.Drawing.Point(18, 195);
             this.MinimizeToTrayInsteadOfClosing.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MinimizeToTrayInsteadOfClosing.Name = "MinimizeToTrayInsteadOfClosing";
             this.MinimizeToTrayInsteadOfClosing.Size = new System.Drawing.Size(15, 14);
@@ -188,17 +188,17 @@
             // minimizeToTrayICLabel
             // 
             this.minimizeToTrayICLabel.AutoSize = true;
-            this.minimizeToTrayICLabel.Location = new System.Drawing.Point(37, 173);
+            this.minimizeToTrayICLabel.Location = new System.Drawing.Point(37, 196);
             this.minimizeToTrayICLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minimizeToTrayICLabel.Name = "minimizeToTrayICLabel";
-            this.minimizeToTrayICLabel.Size = new System.Drawing.Size(189, 15);
+            this.minimizeToTrayICLabel.Size = new System.Drawing.Size(209, 17);
             this.minimizeToTrayICLabel.TabIndex = 21;
             this.minimizeToTrayICLabel.Text = "Minimize to tray instead of closing";
             // 
             // StartNginxLaunchCB
             // 
             this.StartNginxLaunchCB.AutoSize = true;
-            this.StartNginxLaunchCB.Location = new System.Drawing.Point(18, 80);
+            this.StartNginxLaunchCB.Location = new System.Drawing.Point(18, 91);
             this.StartNginxLaunchCB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartNginxLaunchCB.Name = "StartNginxLaunchCB";
             this.StartNginxLaunchCB.Size = new System.Drawing.Size(15, 14);
@@ -208,17 +208,17 @@
             // startNginxOnLaunchLabel
             // 
             this.startNginxOnLaunchLabel.AutoSize = true;
-            this.startNginxOnLaunchLabel.Location = new System.Drawing.Point(37, 81);
+            this.startNginxOnLaunchLabel.Location = new System.Drawing.Point(37, 92);
             this.startNginxOnLaunchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startNginxOnLaunchLabel.Name = "startNginxOnLaunchLabel";
-            this.startNginxOnLaunchLabel.Size = new System.Drawing.Size(122, 15);
+            this.startNginxOnLaunchLabel.Size = new System.Drawing.Size(133, 17);
             this.startNginxOnLaunchLabel.TabIndex = 17;
             this.startNginxOnLaunchLabel.Text = "Start Nginx on launch";
             // 
             // StartMySQLLaunchCB
             // 
             this.StartMySQLLaunchCB.AutoSize = true;
-            this.StartMySQLLaunchCB.Location = new System.Drawing.Point(18, 103);
+            this.StartMySQLLaunchCB.Location = new System.Drawing.Point(18, 117);
             this.StartMySQLLaunchCB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartMySQLLaunchCB.Name = "StartMySQLLaunchCB";
             this.StartMySQLLaunchCB.Size = new System.Drawing.Size(15, 14);
@@ -228,19 +228,19 @@
             // startMariaDBOnLaunchLabel
             // 
             this.startMariaDBOnLaunchLabel.AutoSize = true;
-            this.startMariaDBOnLaunchLabel.Location = new System.Drawing.Point(37, 104);
+            this.startMariaDBOnLaunchLabel.Location = new System.Drawing.Point(37, 118);
             this.startMariaDBOnLaunchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startMariaDBOnLaunchLabel.Name = "startMariaDBOnLaunchLabel";
-            this.startMariaDBOnLaunchLabel.Size = new System.Drawing.Size(135, 15);
+            this.startMariaDBOnLaunchLabel.Size = new System.Drawing.Size(150, 17);
             this.startMariaDBOnLaunchLabel.TabIndex = 15;
             this.startMariaDBOnLaunchLabel.Text = "Start MariaDB on launch";
             // 
             // selecteditor
             // 
-            this.selecteditor.Location = new System.Drawing.Point(239, 25);
+            this.selecteditor.Location = new System.Drawing.Point(239, 28);
             this.selecteditor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.selecteditor.Name = "selecteditor";
-            this.selecteditor.Size = new System.Drawing.Size(30, 23);
+            this.selecteditor.Size = new System.Drawing.Size(30, 26);
             this.selecteditor.TabIndex = 14;
             this.selecteditor.Text = "...";
             this.selecteditor.UseVisualStyleBackColor = true;
@@ -248,7 +248,7 @@
             // 
             // updateCheckIntervalNumericUpDown
             // 
-            this.updateCheckIntervalNumericUpDown.Location = new System.Drawing.Point(223, 240);
+            this.updateCheckIntervalNumericUpDown.Location = new System.Drawing.Point(223, 272);
             this.updateCheckIntervalNumericUpDown.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.updateCheckIntervalNumericUpDown.Maximum = new decimal(new int[] {
             365,
@@ -267,27 +267,27 @@
             // updateCheckIntervalLabel
             // 
             this.updateCheckIntervalLabel.AutoSize = true;
-            this.updateCheckIntervalLabel.Location = new System.Drawing.Point(37, 242);
+            this.updateCheckIntervalLabel.Location = new System.Drawing.Point(37, 274);
             this.updateCheckIntervalLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.updateCheckIntervalLabel.Name = "updateCheckIntervalLabel";
-            this.updateCheckIntervalLabel.Size = new System.Drawing.Size(169, 15);
+            this.updateCheckIntervalLabel.Size = new System.Drawing.Size(187, 17);
             this.updateCheckIntervalLabel.TabIndex = 12;
             this.updateCheckIntervalLabel.Text = "Update check interval (in days)";
             // 
             // editorLabel
             // 
             this.editorLabel.AutoSize = true;
-            this.editorLabel.Location = new System.Drawing.Point(13, 29);
+            this.editorLabel.Location = new System.Drawing.Point(13, 33);
             this.editorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.editorLabel.Name = "editorLabel";
-            this.editorLabel.Size = new System.Drawing.Size(41, 15);
+            this.editorLabel.Size = new System.Drawing.Size(46, 17);
             this.editorLabel.TabIndex = 0;
             this.editorLabel.Text = "Editor:";
             // 
             // StartPHPLaunchCB
             // 
             this.StartPHPLaunchCB.AutoSize = true;
-            this.StartPHPLaunchCB.Location = new System.Drawing.Point(18, 126);
+            this.StartPHPLaunchCB.Location = new System.Drawing.Point(18, 143);
             this.StartPHPLaunchCB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartPHPLaunchCB.Name = "StartPHPLaunchCB";
             this.StartPHPLaunchCB.Size = new System.Drawing.Size(15, 14);
@@ -297,17 +297,17 @@
             // startPHPOnLaunchLabel
             // 
             this.startPHPOnLaunchLabel.AutoSize = true;
-            this.startPHPOnLaunchLabel.Location = new System.Drawing.Point(37, 127);
+            this.startPHPOnLaunchLabel.Location = new System.Drawing.Point(37, 144);
             this.startPHPOnLaunchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startPHPOnLaunchLabel.Name = "startPHPOnLaunchLabel";
-            this.startPHPOnLaunchLabel.Size = new System.Drawing.Size(113, 15);
+            this.startPHPOnLaunchLabel.Size = new System.Drawing.Size(122, 17);
             this.startPHPOnLaunchLabel.TabIndex = 6;
             this.startPHPOnLaunchLabel.Text = "Start PHP on launch";
             // 
             // StartWnmpWithWindows
             // 
             this.StartWnmpWithWindows.AutoSize = true;
-            this.StartWnmpWithWindows.Location = new System.Drawing.Point(18, 57);
+            this.StartWnmpWithWindows.Location = new System.Drawing.Point(18, 65);
             this.StartWnmpWithWindows.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.StartWnmpWithWindows.Name = "StartWnmpWithWindows";
             this.StartWnmpWithWindows.Size = new System.Drawing.Size(15, 14);
@@ -317,17 +317,17 @@
             // startWnmpWithWindowsLabel
             // 
             this.startWnmpWithWindowsLabel.AutoSize = true;
-            this.startWnmpWithWindowsLabel.Location = new System.Drawing.Point(37, 58);
+            this.startWnmpWithWindowsLabel.Location = new System.Drawing.Point(37, 66);
             this.startWnmpWithWindowsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.startWnmpWithWindowsLabel.Name = "startWnmpWithWindowsLabel";
-            this.startWnmpWithWindowsLabel.Size = new System.Drawing.Size(148, 15);
+            this.startWnmpWithWindowsLabel.Size = new System.Drawing.Size(161, 17);
             this.startWnmpWithWindowsLabel.TabIndex = 3;
             this.startWnmpWithWindowsLabel.Text = "Start Wnmp with Windows";
             // 
             // autoUpdateCheckBox
             // 
             this.autoUpdateCheckBox.AutoSize = true;
-            this.autoUpdateCheckBox.Location = new System.Drawing.Point(18, 218);
+            this.autoUpdateCheckBox.Location = new System.Drawing.Point(18, 247);
             this.autoUpdateCheckBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.autoUpdateCheckBox.Name = "autoUpdateCheckBox";
             this.autoUpdateCheckBox.Size = new System.Drawing.Size(15, 14);
@@ -337,16 +337,16 @@
             // automaticallyCheckForUpdatesLabel
             // 
             this.automaticallyCheckForUpdatesLabel.AutoSize = true;
-            this.automaticallyCheckForUpdatesLabel.Location = new System.Drawing.Point(37, 219);
+            this.automaticallyCheckForUpdatesLabel.Location = new System.Drawing.Point(37, 248);
             this.automaticallyCheckForUpdatesLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.automaticallyCheckForUpdatesLabel.Name = "automaticallyCheckForUpdatesLabel";
-            this.automaticallyCheckForUpdatesLabel.Size = new System.Drawing.Size(178, 15);
+            this.automaticallyCheckForUpdatesLabel.Size = new System.Drawing.Size(194, 17);
             this.automaticallyCheckForUpdatesLabel.TabIndex = 10;
             this.automaticallyCheckForUpdatesLabel.Text = "Automatically check for updates";
             // 
             // editorTB
             // 
-            this.editorTB.Location = new System.Drawing.Point(63, 25);
+            this.editorTB.Location = new System.Drawing.Point(63, 28);
             this.editorTB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.editorTB.Name = "editorTB";
             this.editorTB.ReadOnly = true;
@@ -356,7 +356,7 @@
             // MinimizeWnmpToTray
             // 
             this.MinimizeWnmpToTray.AutoSize = true;
-            this.MinimizeWnmpToTray.Location = new System.Drawing.Point(18, 149);
+            this.MinimizeWnmpToTray.Location = new System.Drawing.Point(18, 169);
             this.MinimizeWnmpToTray.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MinimizeWnmpToTray.Name = "MinimizeWnmpToTray";
             this.MinimizeWnmpToTray.Size = new System.Drawing.Size(15, 14);
@@ -366,21 +366,21 @@
             // minimizeToTrayLabel
             // 
             this.minimizeToTrayLabel.AutoSize = true;
-            this.minimizeToTrayLabel.Location = new System.Drawing.Point(37, 150);
+            this.minimizeToTrayLabel.Location = new System.Drawing.Point(37, 170);
             this.minimizeToTrayLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minimizeToTrayLabel.Name = "minimizeToTrayLabel";
-            this.minimizeToTrayLabel.Size = new System.Drawing.Size(93, 15);
+            this.minimizeToTrayLabel.Size = new System.Drawing.Size(102, 17);
             this.minimizeToTrayLabel.TabIndex = 8;
             this.minimizeToTrayLabel.Text = "Minimize to tray";
             // 
             // Nginx
             // 
             this.Nginx.Controls.Add(this.groupBox1);
-            this.Nginx.Location = new System.Drawing.Point(4, 24);
+            this.Nginx.Location = new System.Drawing.Point(4, 26);
             this.Nginx.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Nginx.Name = "Nginx";
             this.Nginx.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.Nginx.Size = new System.Drawing.Size(397, 350);
+            this.Nginx.Size = new System.Drawing.Size(397, 398);
             this.Nginx.TabIndex = 2;
             this.Nginx.Text = "Nginx";
             this.Nginx.UseVisualStyleBackColor = true;
@@ -389,41 +389,41 @@
             // 
             this.groupBox1.Controls.Add(this.nginxBin);
             this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Location = new System.Drawing.Point(7, 7);
+            this.groupBox1.Location = new System.Drawing.Point(7, 8);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox1.Size = new System.Drawing.Size(382, 69);
+            this.groupBox1.Size = new System.Drawing.Size(382, 78);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nginx Settings";
+            this.groupBox1.Text = "Nginx设置";
             // 
             // nginxBin
             // 
             this.nginxBin.FormattingEnabled = true;
-            this.nginxBin.Location = new System.Drawing.Point(108, 28);
+            this.nginxBin.Location = new System.Drawing.Point(108, 32);
             this.nginxBin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.nginxBin.Name = "nginxBin";
-            this.nginxBin.Size = new System.Drawing.Size(80, 23);
+            this.nginxBin.Size = new System.Drawing.Size(80, 25);
             this.nginxBin.TabIndex = 5;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(21, 31);
+            this.label14.Location = new System.Drawing.Point(21, 35);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(83, 15);
+            this.label14.Size = new System.Drawing.Size(82, 17);
             this.label14.TabIndex = 4;
-            this.label14.Text = "Nginx Version:";
+            this.label14.Text = "Nginx 版本：";
             // 
             // MariaDB
             // 
             this.MariaDB.Controls.Add(this.groupBox4);
-            this.MariaDB.Location = new System.Drawing.Point(4, 24);
+            this.MariaDB.Location = new System.Drawing.Point(4, 26);
             this.MariaDB.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MariaDB.Name = "MariaDB";
-            this.MariaDB.Size = new System.Drawing.Size(397, 350);
+            this.MariaDB.Size = new System.Drawing.Size(397, 398);
             this.MariaDB.TabIndex = 3;
             this.MariaDB.Text = "MariaDB";
             this.MariaDB.UseVisualStyleBackColor = true;
@@ -432,43 +432,43 @@
             // 
             this.groupBox4.Controls.Add(this.mariadbBin);
             this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Location = new System.Drawing.Point(7, 7);
+            this.groupBox4.Location = new System.Drawing.Point(7, 8);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox4.Size = new System.Drawing.Size(382, 69);
+            this.groupBox4.Size = new System.Drawing.Size(382, 78);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "MariaDB Settings";
+            this.groupBox4.Text = "MariaDB设置";
             // 
             // mariadbBin
             // 
             this.mariadbBin.FormattingEnabled = true;
-            this.mariadbBin.Location = new System.Drawing.Point(125, 28);
+            this.mariadbBin.Location = new System.Drawing.Point(125, 32);
             this.mariadbBin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.mariadbBin.Name = "mariadbBin";
-            this.mariadbBin.Size = new System.Drawing.Size(80, 23);
+            this.mariadbBin.Size = new System.Drawing.Size(80, 25);
             this.mariadbBin.TabIndex = 5;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(21, 31);
+            this.label15.Location = new System.Drawing.Point(21, 35);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(96, 15);
+            this.label15.Size = new System.Drawing.Size(99, 17);
             this.label15.TabIndex = 4;
-            this.label15.Text = "MariaDB Version:";
+            this.label15.Text = "MariaDB 版本：";
             // 
             // PHP
             // 
             this.PHP.Controls.Add(this.groupBox3);
             this.PHP.Controls.Add(this.groupBox2);
-            this.PHP.Location = new System.Drawing.Point(4, 24);
+            this.PHP.Location = new System.Drawing.Point(4, 26);
             this.PHP.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PHP.Name = "PHP";
             this.PHP.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.PHP.Size = new System.Drawing.Size(397, 350);
+            this.PHP.Size = new System.Drawing.Size(397, 398);
             this.PHP.TabIndex = 1;
             this.PHP.Text = "PHP";
             this.PHP.UseVisualStyleBackColor = true;
@@ -476,14 +476,14 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.phpExtListBox);
-            this.groupBox3.Location = new System.Drawing.Point(7, 141);
+            this.groupBox3.Location = new System.Drawing.Point(7, 160);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox3.Size = new System.Drawing.Size(380, 201);
+            this.groupBox3.Size = new System.Drawing.Size(380, 228);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "PHP Extensions";
+            this.groupBox3.Text = "PHP 扩展";
             // 
             // phpExtListBox
             // 
@@ -492,7 +492,7 @@
             this.phpExtListBox.Location = new System.Drawing.Point(4, 19);
             this.phpExtListBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpExtListBox.Name = "phpExtListBox";
-            this.phpExtListBox.Size = new System.Drawing.Size(372, 179);
+            this.phpExtListBox.Size = new System.Drawing.Size(372, 206);
             this.phpExtListBox.TabIndex = 0;
             // 
             // groupBox2
@@ -503,38 +503,38 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.PHP_PORT);
             this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Location = new System.Drawing.Point(7, 7);
+            this.groupBox2.Location = new System.Drawing.Point(7, 8);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox2.Size = new System.Drawing.Size(382, 127);
+            this.groupBox2.Size = new System.Drawing.Size(382, 144);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "PHP Settings";
+            this.groupBox2.Text = "PHP设置";
             // 
             // phpBin
             // 
             this.phpBin.FormattingEnabled = true;
-            this.phpBin.Location = new System.Drawing.Point(126, 90);
+            this.phpBin.Location = new System.Drawing.Point(126, 102);
             this.phpBin.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.phpBin.Name = "phpBin";
-            this.phpBin.Size = new System.Drawing.Size(80, 23);
+            this.phpBin.Size = new System.Drawing.Size(80, 25);
             this.phpBin.TabIndex = 5;
             this.phpBin.SelectedIndexChanged += new System.EventHandler(this.PhpBin_SelectedIndexChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(21, 93);
+            this.label9.Location = new System.Drawing.Point(21, 105);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(74, 15);
+            this.label9.Size = new System.Drawing.Size(71, 17);
             this.label9.TabIndex = 4;
-            this.label9.Text = "PHP Version:";
+            this.label9.Text = "PHP 版本：";
             // 
             // PHP_PROCESSES
             // 
-            this.PHP_PROCESSES.Location = new System.Drawing.Point(126, 29);
+            this.PHP_PROCESSES.Location = new System.Drawing.Point(126, 33);
             this.PHP_PROCESSES.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PHP_PROCESSES.Maximum = new decimal(new int[] {
             1000,
@@ -558,16 +558,16 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(21, 31);
+            this.label8.Location = new System.Drawing.Point(21, 35);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 15);
+            this.label8.Size = new System.Drawing.Size(71, 17);
             this.label8.TabIndex = 2;
-            this.label8.Text = "PHP Processes:";
+            this.label8.Text = "PHP 进程：";
             // 
             // PHP_PORT
             // 
-            this.PHP_PORT.Location = new System.Drawing.Point(126, 58);
+            this.PHP_PORT.Location = new System.Drawing.Point(126, 66);
             this.PHP_PORT.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PHP_PORT.Maximum = new decimal(new int[] {
             65535,
@@ -586,29 +586,29 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(21, 60);
+            this.label7.Location = new System.Drawing.Point(21, 68);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 15);
+            this.label7.Size = new System.Drawing.Size(71, 17);
             this.label7.TabIndex = 0;
-            this.label7.Text = "PHP Port:";
+            this.label7.Text = "PHP 端口：";
             // 
             // Save
             // 
-            this.Save.Location = new System.Drawing.Point(214, 399);
+            this.Save.Location = new System.Drawing.Point(214, 452);
             this.Save.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Save.Name = "Save";
-            this.Save.Size = new System.Drawing.Size(88, 27);
+            this.Save.Size = new System.Drawing.Size(88, 31);
             this.Save.TabIndex = 18;
-            this.Save.Text = "Save";
+            this.Save.Text = "保存";
             this.Save.UseVisualStyleBackColor = true;
             this.Save.Click += new System.EventHandler(this.Save_Click);
             // 
             // OptionsFrm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 440);
+            this.ClientSize = new System.Drawing.Size(420, 499);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.optionsTabControl);
             this.Controls.Add(this.Save);
